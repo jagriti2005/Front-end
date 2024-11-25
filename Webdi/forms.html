@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/server">
+        <label for="name">Name:</label>
+        <input type="text">
+        <br>
+        Sex:
+        <input type="radio" name="sex" id="sex" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="sex" value="female">
+        <label for="female">female</label>
+        <br>
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="india">India</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="pune">Pune</option>
+            <option value="russia">Russia</option>
+            <option value="delhi">Delhi</option>
+        </select>
+        <br>
+        Message:
+        <br>
+        <textarea name="feedback" id="feedback" row="10" col="30"></textarea>
+        <br>
+        <input type="checkbox" name="sub" id="sub">
+        <label for="sub">Subscibe?</label>
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="/server">
+        <label for="name">Name:</label>
+        <input type="text" name="name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" name="email">
+        <br>
+        <br>
+        Message:
+        <br>
+        <textarea name="feedback" id="feedback" row="10" col="30"></textarea>
+        <br>
+        <br>
+        Rate us our of 5:
+        <br>
+        <input type="radio" name="one" id="one" value="one">
+        <label for="one">1</label>
+        <br>
+        <input type="radio" name="two" id="two" value="two">
+        <label for="two">2</label>
+        <br>
+        <input type="radio" name="3" id="3" value="3">
+        <label for="3">3</label>
+        <br>
+        <input type="radio" name="4" id="4" value="4">
+        <label for="4">4</label>
+        <br>
+        <input type="radio" name="5" id="5" value="5">
+        <label for="5">5</label>
+        <br>
+        <br>
+        <button>Send your message!</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      background-color:pink;
+    }
+    button{
+      color:blue;
+      background-color:white;
+    }
+  </style>
+</head>
+<body>
+  <form action="/server">
+    <h2>Registration Form</h2>
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+    <br>
+    <label for="Gender">Please select gender</label>
+    <select name="Gender" id="Gender">
+      <option value="men">Male</option>
+      <option value="women">Female</option>
+      <option value="none">Neutral</option>
+    </select>
+    <br>
+    Do you agree to all terms of service?
+    <input type="checkbox" name="agree" id="agree">
+    <label for="agree">Yes,I agree</label>
+    <br>
+    <button>Register</button>
+  </form>
+</body>
+</html>
